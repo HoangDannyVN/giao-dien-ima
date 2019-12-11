@@ -98,6 +98,7 @@ footer#footer-page{
 	width: 100%;
 	margin-bottom: 20px;
 }
+
 .rec-post .content-block .hot img{
 	float: left;
 	margin-right: 10px;
@@ -111,12 +112,14 @@ footer#footer-page{
 .rec-post ul li{
 	/*display: inline-block;*/
 	width: 50%;
-	float: left;
+	float: left; 
 }
 .rec-post ul li img{
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	width: 70px;
+	height: 70px;
 }
 .rec-post h3{
 	margin: 3px 0px;
