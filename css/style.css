@@ -10,7 +10,7 @@ body{
 	
 }
 nav#main-nav{
-	background-color: yellow;
+	/*background-color: yellow;*/
 }
 #body-page{
 	background-color: #fff; 
@@ -54,4 +54,40 @@ footer#footer-page{
 }
 .block .content-block{
 	padding: 10px;
+}
+/* dựng thanh menu*/
+#main-nav{
+
+}
+#main-nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#74b3e6+0,2884d1+46,1d5699+100 */
+background: #74b3e6; /* Old browsers */
+background: -moz-linear-gradient(top,  #74b3e6 0%, #2884d1 46%, #1d5699 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #74b3e6 0%,#2884d1 46%,#1d5699 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #74b3e6 0%,#2884d1 46%,#1d5699 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3e6', endColorstr='#1d5699',GradientType=0 ); /* IE6-9 */
+
+	border-bottom: 3px solid #5b5c57;
+	font-size: 0px;
+}
+#main-nav ul li{
+	display: inline-block;
+	font-size: 1rem;
+}
+#main-nav ul li a{
+	font-family: Arial;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	color: #fff;
+	border-right: 1px solid #fff;
+}
+#main-nav ul li:last-child a{
+	border-right: none;
+}
+#main-nav ul li a:hover, #main-nav ul li.active a{
+	background-color: #222327;
 }
