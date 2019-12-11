@@ -91,3 +91,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3e6', end
 #main-nav ul li a:hover, #main-nav ul li.active a{
 	background-color: #222327;
 }
+/*phần nội dung*/
+#slide-show image{
+ width: 100%;
+}
